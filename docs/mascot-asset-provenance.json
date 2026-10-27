@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-14",
+  "tool": "built-in image_gen",
+  "mode": "edit / background-extraction",
+  "input_role": "User-provided school mascot reference and edit target",
+  "input_filename": "cc40c856-c28c-41ab-9f46-27a2a81b2d16.png",
+  "output": "frontend/assets/school-mascot.png",
+  "sha256": "14954dd7ba9833ada6e5b508b5107b1322b5636694f2c53fba2933e9f87fa49d",
+  "size": [
+    1122,
+    1402
+  ],
+  "alpha": true,
+  "prompt": "Use case: background-extraction\nAsset type: transparent full-body school mascot illustration for a local freshman guide website.\nInput image 1 is the edit target, a character sheet supplied by the user.\nPrimary request: extract ONLY the main large central full-body female mascot from this sheet, on a genuinely transparent background. Retain the original character artwork as faithfully as possible. Remove all surrounding text, the right-hand detail panels, birds floating outside the character, campus buildings, red monument in the background, water beneath the shoes, palette diamonds and poster layout.\nInvariants: preserve the face and bright blue eyes, long flowing indigo/navy hair, smiling expression, inviting outstretched hand, other hand holding the navy book, white and navy uniform with short pleated skirt, long wave-patterned cape, blue tie and red ribbons, circular bridge badges and chains, red angular bridge hair ornament, and both white/navy high-top sneakers. Keep the same pose and proportions. Do not invent a new character, simplify the costume, crop hair or shoes, or add typography.\nComposition: complete head-to-shoes character centered in a portrait canvas, with transparent padding around the outermost cape/hair/hand/feet. Clean detailed anti-aliased edges; original illustrated colors; transparent alpha, no checkerboard painted into image, no drop shadow, no background.",
+  "notes": "Generated derivative of supplied artwork; no independently verified official new mascot name or approval. No project/original-author API key used."
+}

@@ -1,0 +1,164 @@
+{
+  "growth": {
+    "passed": 4,
+    "total": 4,
+    "cases": [
+      {
+        "question": "六人寝的中间床位在哪里？",
+        "expected_keyword": "六人寝",
+        "passed": true,
+        "top_source": "宿舍床位选择参考.md"
+      },
+      {
+        "question": "计算机协会有哪些活动？",
+        "expected_keyword": "计算机协会",
+        "passed": true,
+        "top_source": "大学生社团指南.md"
+      },
+      {
+        "question": "数学建模竞赛做什么？",
+        "expected_keyword": "数学建模",
+        "passed": true,
+        "top_source": "大学生竞赛指南.md"
+      },
+      {
+        "question": "学生会宣传部做什么？",
+        "expected_keyword": "宣传部",
+        "passed": true,
+        "top_source": "大学生学生会与学生组织指南.md"
+      }
+    ]
+  },
+  "kind": "Top-1 keyword coverage on an explicit FAQ set; not human answer-quality scoring",
+  "passed": 18,
+  "total": 18,
+  "elapsed_ms": 16.13,
+  "cases": [
+    {
+      "question": "新生什么时候报到？",
+      "expected_keyword": "报到时间",
+      "passed": true,
+      "top_source": "新生手册.txt",
+      "top_section": "一、报到时间"
+    },
+    {
+      "question": "学校在哪些站点接站？",
+      "expected_keyword": "接站",
+      "passed": true,
+      "top_source": "学校地址与导航.md",
+      "top_section": "二、公共交通与接站"
+    },
+    {
+      "question": "报到点在哪里？",
+      "expected_keyword": "地点安排",
+      "passed": true,
+      "top_source": "入学指南补充.md",
+      "top_section": "二、报到当天地点安排"
+    },
+    {
+      "question": "学费怎么交？",
+      "expected_keyword": "缴费",
+      "passed": true,
+      "top_source": "官方服务入口.md",
+      "top_section": "学费缴费与官方通知"
+    },
+    {
+      "question": "学费咋交",
+      "expected_keyword": "缴费",
+      "passed": true,
+      "top_source": "官方服务入口.md",
+      "top_section": "学费缴费与官方通知"
+    },
+    {
+      "question": "报到要带什么材料？",
+      "expected_keyword": "必备材料",
+      "passed": true,
+      "top_source": "入学准备清单.md",
+      "top_section": "一、必备材料"
+    },
+    {
+      "question": "党团组织关系怎么转？",
+      "expected_keyword": "团",
+      "passed": true,
+      "top_source": "档案与党团关系转接.md",
+      "top_section": "三、团组织关系转接"
+    },
+    {
+      "question": "生源地助学贷款怎么申请？",
+      "expected_keyword": "贷款",
+      "passed": true,
+      "top_source": "资助与绿色通道.md",
+      "top_section": "二、生源地信用助学贷款申请流程（参考）"
+    },
+    {
+      "question": "校园一卡通在哪里充值？",
+      "expected_keyword": "充值",
+      "passed": true,
+      "top_source": "入学指南补充.md",
+      "top_section": "二、报到当天地点安排"
+    },
+    {
+      "question": "户口迁移怎么办理？",
+      "expected_keyword": "户口",
+      "passed": true,
+      "top_source": "户口迁移.md",
+      "top_section": "一、政策依据"
+    },
+    {
+      "question": "馨园宿舍在哪？",
+      "expected_keyword": "馨园",
+      "passed": true,
+      "top_source": "校园地图.md",
+      "top_section": "馨园7-8"
+    },
+    {
+      "question": "沁园宿舍在哪？",
+      "expected_keyword": "沁园",
+      "passed": true,
+      "top_source": "校园地图.md",
+      "top_section": "沁园1-9"
+    },
+    {
+      "question": "图书馆在哪里？",
+      "expected_keyword": "图书馆",
+      "passed": true,
+      "top_source": "校园地图.md",
+      "top_section": "图书馆"
+    },
+    {
+      "question": "第一餐厅在哪？",
+      "expected_keyword": "第一餐厅",
+      "passed": true,
+      "top_source": "校园地图.md",
+      "top_section": "第一餐厅"
+    },
+    {
+      "question": "宿舍水电费怎么交？",
+      "expected_keyword": "水电",
+      "passed": true,
+      "top_source": "宿舍水电与校园生活.md",
+      "top_section": "宿舍水电费"
+    },
+    {
+      "question": "学校快递地址怎么写？",
+      "expected_keyword": "快递",
+      "passed": true,
+      "top_source": "学校地址与导航.md",
+      "top_section": "四、快递地址"
+    },
+    {
+      "question": "学校有哪些院系和专业？",
+      "expected_keyword": "专业",
+      "passed": true,
+      "top_source": "院系专业设置.md",
+      "top_section": "招生学院与专业一览"
+    },
+    {
+      "question": "军训什么时候开始？",
+      "expected_keyword": "军训",
+      "passed": true,
+      "top_source": "军训安排.md",
+      "top_section": "一、军训动员（官方信息）"
+    }
+  ]
+}

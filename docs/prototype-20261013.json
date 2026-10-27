@@ -1,0 +1,528 @@
+{
+  "received_date": "2026-10-13",
+  "archive_name": "freshman-guide-11.13(1).zip",
+  "archive_sha256": "dc53e7668eb93d03d8a914d795817214639b8cb52314c633c9a82b34207a1248",
+  "changed": [
+    "backend/answer.py",
+    "backend/main.py",
+    "backend/retriever/retriever.py",
+    "frontend/app.js",
+    "frontend/style.css"
+  ],
+  "added": [
+    "backend/websearch.py"
+  ],
+  "same": 120,
+  "excluded": {
+    "outside_project": 1777,
+    "environment_runtime_cache": 30,
+    "private_or_old_artifact": 9
+  },
+  "credential_candidates": [],
+  "files": {
+    ".env.example": {
+      "bytes": 207,
+      "sha256": "5bab4df42af46a72722bec83ab9a4f545a2cff55379c36f93a24c17bb9b09a54"
+    },
+    ".gitattributes": {
+      "bytes": 129,
+      "sha256": "7230a0ca99ed004aa37c21738b484d502f8c0d9f67a2b3dbaabc1f6ee257d2b5"
+    },
+    ".gitignore": {
+      "bytes": 257,
+      "sha256": "e953226006f559a77b4eef7768397a433449702e6a1999bc0e4d5b6d5ef09c08"
+    },
+    "backend/answer.py": {
+      "bytes": 8788,
+      "sha256": "bc5e81f3e8bf78fe7a40d31597787f1f1803b6e2b9de87f708c18ade2414ce58"
+    },
+    "backend/catalog.py": {
+      "bytes": 14539,
+      "sha256": "9d045b1f2d0e936ebdf7a8e6266e141ad9ac78e1f0651dd1d15ea9f643c22402"
+    },
+    "backend/club.py": {
+      "bytes": 9920,
+      "sha256": "0b4d7b4b330ef3a1c9c22b31ac848c9698e30d4106703b40421548150701fb80"
+    },
+    "backend/contest.py": {
+      "bytes": 17951,
+      "sha256": "d9397065c00f99361e645892a58f00a079a5367a4c02ae77152df454bb8915d8"
+    },
+    "backend/dorm.py": {
+      "bytes": 3100,
+      "sha256": "6b1abbff390c55d47cc2830407f00c5bf85c5b058bfcd79a52b81a63f59d83fc"
+    },
+    "backend/experience.py": {
+      "bytes": 8204,
+      "sha256": "cf3fdee15defa8b0750f8565841ceacca685a9b379d9ec9bbae6e8bb0cb874ff"
+    },
+    "backend/main.py": {
+      "bytes": 18590,
+      "sha256": "8b06e7587dafefa897870a2c6343a4451d03f15317a6e985b9adf2aa03975126"
+    },
+    "backend/requirements.txt": {
+      "bytes": 145,
+      "sha256": "7aec7acf9c5d7668fab3bc4505f48f4244f6db4b6db3d9b474b6c6a2d12af84b"
+    },
+    "backend/retriever/retriever.py": {
+      "bytes": 8591,
+      "sha256": "ec29654b57f91d417e993abff42935061e238aeebb1c106d7e8cc101542287d2"
+    },
+    "backend/retriever/splitter.py": {
+      "bytes": 3278,
+      "sha256": "8ac1f320da5f6713d1f9773bc1918cfa29e0f42a9b165ffa1ae948ed338762c1"
+    },
+    "backend/retriever/__init__.py": {
+      "bytes": 40,
+      "sha256": "a7a2b00b34d0f2530c58a237f298143f28442363afedded160380de20ddda234"
+    },
+    "backend/scripts/ingest.py": {
+      "bytes": 592,
+      "sha256": "c422d0345a0f3b30c21639d6b780e8ef06151d639da572e5c1051e0ae81970da"
+    },
+    "backend/services/chat_service.py": {
+      "bytes": 407,
+      "sha256": "dbc8c70f6942b25382683f4d05d88fe70ba328772570ff64e5e39b50ba1259d0"
+    },
+    "backend/services/__init__.py": {
+      "bytes": 28,
+      "sha256": "487a048402cfca54f1f37f688529b168948a2be5661275653a9f03a55c8f5ccf"
+    },
+    "backend/settings.py": {
+      "bytes": 1418,
+      "sha256": "744f83ae5c9e5fa281943fdbf56ed51acf11c474d4395d3743ca8164abaf4526"
+    },
+    "backend/store.py": {
+      "bytes": 4932,
+      "sha256": "4d46bcfef3a37eaa7237c599f514e2d69fe3d0881a429cbb046660c3e4bc0244"
+    },
+    "backend/studentorg.py": {
+      "bytes": 9717,
+      "sha256": "aee29939817878b0a436331b7941e635fa770e1baa356125407612e066f7b2f7"
+    },
+    "backend/websearch.py": {
+      "bytes": 5465,
+      "sha256": "146ef50ea3ccb190e0ea3de8da612ece3af005c1755bfc47dff9b5c832d5ccd7"
+    },
+    "backend/__init__.py": {
+      "bytes": 57,
+      "sha256": "505f856d571e16c41eb9471c7e79eeb725321ee78366e9aa3cb8c66ccffee469"
+    },
+    "config/blocked_key_fingerprints.json": {
+      "bytes": 76,
+      "sha256": "238b434264643ebc562e258c3d18a2138f53278786c9da4472944e65f3b7e629"
+    },
+    "docs/browser-verification.json": {
+      "bytes": 1129,
+      "sha256": "82e4a7913cf85828069ac9af92193e317acf538e68cd9443e2452698792f202c"
+    },
+    "docs/credential-isolation.json": {
+      "bytes": 641,
+      "sha256": "55a51b936c594b27e8863dc87a0a83c4e8d8b0004452f85c6a2c8534c06cd2e7"
+    },
+    "docs/evaluation-after.json": {
+      "bytes": 4984,
+      "sha256": "8695398bca8aacfad8b872a2dc163d9e2336270f5435b9d49446e0b00b292f22"
+    },
+    "docs/evaluation-before.json": {
+      "bytes": 4186,
+      "sha256": "7f65b7a1325ec34c40ca9590d6e2199a1374d53284cf0e560f7a5ec8724ecc80"
+    },
+    "docs/inputs/新生指南项目交接与优化指南.md": {
+      "bytes": 16688,
+      "sha256": "580dff4fa54cf677382f0bafcda6f267d8b92057a251f7fddfc412df4265b028"
+    },
+    "docs/inputs/赛事要求.txt": {
+      "bytes": 16498,
+      "sha256": "279edcbe3d2efa7fa82128d65c5a2e94e9bbe78ac0c8f1f274fcfa78b94c54de"
+    },
+    "docs/intake-check.json": {
+      "bytes": 1624,
+      "sha256": "f6db0621047f1630f1bc3e4679f73e53a01e9366139da9f3075f361c37a1899d"
+    },
+    "docs/pdf-verification.json": {
+      "bytes": 476,
+      "sha256": "ed2fce27237bace08da9b4dfd66b956a387d5c6901b22f8d067ba681dfe7f49f"
+    },
+    "docs/prototype-20261011.json": {
+      "bytes": 2975,
+      "sha256": "9f86fa93a494c34347224d5dfdf78835e0ea902e7064abd0c3f43f4dca9a0ef9"
+    },
+    "docs/received-baseline.json": {
+      "bytes": 6688,
+      "sha256": "7f44c5a0519337ac6846328d711c7f57243883ba62d3ef29eb102a64426f0f16"
+    },
+    "docs/verification.json": {
+      "bytes": 5681,
+      "sha256": "361053d65b0760e34741528ab863f19685cb99aa5ff76884ea8f069554e6b0df"
+    },
+    "docs/交付前复查.md": {
+      "bytes": 2985,
+      "sha256": "b4fb136866417edbcce20286719c605739bfc2d1fe5683c806dc522909eee903"
+    },
+    "docs/交付结果.md": {
+      "bytes": 1122,
+      "sha256": "377c295ad0cf5a637963c7b56df7bec3db5389a7989916784afd9ffa675f2b2d"
+    },
+    "docs/功能优化与验收-1.1.0.md": {
+      "bytes": 4880,
+      "sha256": "7fe2fede9363095e8743ea67a92fdbaddb2879030d8558d9cbb6deb082e4ef29"
+    },
+    "docs/宿舍床位选择参考指南.docx": {
+      "bytes": 14312,
+      "sha256": "fb6b8395def4c41aa65e4761503a992303b8f1824b45b4b0c8f82baa82c05869"
+    },
+    "docs/开发迭代记录.md": {
+      "bytes": 5292,
+      "sha256": "77be4930e3cbbe6aebbb929a2d496afc5907286c3e3033d79ad3bd196d6e4acf"
+    },
+    "docs/接手评估与实施顺序.md": {
+      "bytes": 10151,
+      "sha256": "51241da1dee60590b8abbe139769bdedcdd8d66879c318de383bfd53d0c81e67"
+    },
+    "docs/架构与接口.md": {
+      "bytes": 6090,
+      "sha256": "bbfaa543506dc4def4e73e635ed264f0442d4d65d66aa3b9f9e47b633aebc265"
+    },
+    "docs/演示与提交检查.md": {
+      "bytes": 3632,
+      "sha256": "5b11e7474d446a7adfbe06407123a2c6a74b1d78daeb6f2746eec26fd49d110b"
+    },
+    "docs/界面方向.md": {
+      "bytes": 1059,
+      "sha256": "c840b802eccdf2d9ddc6a21c3ae99fd051b2eb3aa306209c0a18929e5e13c310"
+    },
+    "frontend/app.js": {
+      "bytes": 33316,
+      "sha256": "b910a77fcd6e4d0bde62177cd18af4bac811f733059a4dbcf55fac98543d7e77"
+    },
+    "frontend/app.py": {
+      "bytes": 199,
+      "sha256": "c28c08e8c17d088537037e4cc59934dcd38b50b1fd7acbceff379c9d9f03c358"
+    },
+    "frontend/decision.js": {
+      "bytes": 12716,
+      "sha256": "0734ebefc0da0248386feebaafcd253d6b4c72d2154d87fac3478eb030a55ba7"
+    },
+    "frontend/images/club/club-01.png": {
+      "bytes": 13580,
+      "sha256": "e0ae37d9a89c745fc4d03e3aacb4b588f974ca9ba686fb4eff1d75f030181bbb"
+    },
+    "frontend/images/club/club-02.png": {
+      "bytes": 14305,
+      "sha256": "d32fbc1296ebf3063e2fdc8268a12d2ff181223a6d699ac92f75cbf9c76ad06e"
+    },
+    "frontend/images/club/club-03.png": {
+      "bytes": 11791,
+      "sha256": "0837224ca8ebae287782aaf21b3edc51a43c2c8f72611b911af46004c079df13"
+    },
+    "frontend/images/club/club-04.png": {
+      "bytes": 15142,
+      "sha256": "3ce152ccd1a4169ad27d6d1bd9ca8da6ca390e17b1c30f5e8b866b1a87e3d843"
+    },
+    "frontend/images/club/club-05.png": {
+      "bytes": 12915,
+      "sha256": "cc2f5f37ca5e5aeefbbe99c4b6e4ebf3713699f2ce8ec9f6df10aa5c0f768c68"
+    },
+    "frontend/images/club/club-06.png": {
+      "bytes": 14615,
+      "sha256": "f0a13626ee0472ca102396edcb694701f8e850a3cd3b081d2dd3f6aef1245b3c"
+    },
+    "frontend/images/club/club-07.png": {
+      "bytes": 13225,
+      "sha256": "f9f61717e3a324d453cf1531f7b09e2ba8be20355bef4d60ea14703080e2a993"
+    },
+    "frontend/images/club/club-08.png": {
+      "bytes": 14386,
+      "sha256": "0b178dedfa547191ee634a0f8e300f4c608442a10fb1640a51aa9c4cce67c54d"
+    },
+    "frontend/images/club/club-09.png": {
+      "bytes": 11644,
+      "sha256": "cf652441fbd399a3c79ad853381736c2c022e7683b91cba8811fc04f6a7a10f0"
+    },
+    "frontend/images/club/club-10.png": {
+      "bytes": 11282,
+      "sha256": "539dd6424747c1550e50f3a6c3d58d7e7b263535d4d999c55b93bdbb8033105e"
+    },
+    "frontend/images/club/club-11.png": {
+      "bytes": 13620,
+      "sha256": "324b170a8e0ac2088c95f680b9332e8b7272aff89b747151b5ad952101695fab"
+    },
+    "frontend/images/club/club-12.png": {
+      "bytes": 11130,
+      "sha256": "85f9703676be7d2badfb350987691912f52128dd1b5b5f0f5012b8a816212446"
+    },
+    "frontend/images/club/club-13.png": {
+      "bytes": 11913,
+      "sha256": "5f2b61e0c290cf0a702b98d7c5fcb22d2531904e063d1fe4d093d62251495096"
+    },
+    "frontend/images/club/club-14.png": {
+      "bytes": 12105,
+      "sha256": "1699187c111a015ce1cad7cc738f51d54bb48e574adf1c28d7f9671961cb1c25"
+    },
+    "frontend/images/club/club-15.png": {
+      "bytes": 12698,
+      "sha256": "ab2577e0f864887e4da0a45e9c8a6c9a7d6784a171c49d635a33cecc2a6eeb23"
+    },
+    "frontend/images/club/club-16.png": {
+      "bytes": 11840,
+      "sha256": "4ce4007c20fe1d2c3d3ee25d34ded0e580ec18199f311fde85e6f481e5a91828"
+    },
+    "frontend/images/dorm/六人宿舍俯视图.jpg": {
+      "bytes": 119055,
+      "sha256": "0d5387e5dff0e2272c3446df8113f33bc72f14a9e4cd49de5619dbe06cda899d"
+    },
+    "frontend/images/dorm/六人间床位.jpg": {
+      "bytes": 571600,
+      "sha256": "e00b0b2bafcb06e9f46c5c13e9073542d318e8a0188527174e53e0ae4d17c30c"
+    },
+    "frontend/images/dorm/四人宿舍俯视图.jpg": {
+      "bytes": 60893,
+      "sha256": "b9f8948ffcb30b5a7ec38df03b1bb3c2f3a67181fe7fffd6aeabaeac0d405326"
+    },
+    "frontend/images/dorm/四人间床位.jpg": {
+      "bytes": 427735,
+      "sha256": "f51754725d921473f41daaf437dbb65f2e0860adad40dea1fcca571c4030578d"
+    },
+    "frontend/images/union/union-01.png": {
+      "bytes": 13658,
+      "sha256": "3bad1145cae9a4bf80851c173fd609e8f647bbb7391d5bb21b0c69af6c7fc3e6"
+    },
+    "frontend/images/union/union-02.png": {
+      "bytes": 11103,
+      "sha256": "7415fab4648d986eadfbdc26a8b3c10f657bde6121d6d5ab12578a43a730cbd3"
+    },
+    "frontend/images/union/union-03.png": {
+      "bytes": 12017,
+      "sha256": "269bc19ea128fca21372e524d90f6d7b11a2d2ce6ed5067ef8d7da7731d714e9"
+    },
+    "frontend/images/union/union-04.png": {
+      "bytes": 12725,
+      "sha256": "f5428267876512027c989cf11d9f9e23cdc49e4d2f92aa5c9febe70eb4d7a549"
+    },
+    "frontend/images/union/union-05.png": {
+      "bytes": 13401,
+      "sha256": "cebcfe1780071bed3d5323dfde7db437e2ced79fa69b7f51fe3c4143e44a0344"
+    },
+    "frontend/images/union/union-06.png": {
+      "bytes": 12770,
+      "sha256": "a1e152eb61004bb5e312504e1b98636cb1625bb1f8f8073b79e1cd5f523cc8c9"
+    },
+    "frontend/images/union/union-07.png": {
+      "bytes": 13303,
+      "sha256": "e0ec896c13f6b720f6629558607fb4f2af2e4b19fd9d021c5695e7b776252fbd"
+    },
+    "frontend/images/union/union-08.png": {
+      "bytes": 13090,
+      "sha256": "ec7a7415a1a4dd220d1fcedd449cde205b0aaf11b0fbefd88317359123c6238e"
+    },
+    "frontend/images/union/union-09.png": {
+      "bytes": 13129,
+      "sha256": "df9825bc4ad56e174f63b7ea69953b29aea38cac11afdb6d0c2ed83895f2a32b"
+    },
+    "frontend/images/union/union-10.png": {
+      "bytes": 12264,
+      "sha256": "00273aabc3f8ac84f69eb7cd4bc584379e00dddae4663e42420c7ebe11dfe47f"
+    },
+    "frontend/images/union/union-11.png": {
+      "bytes": 12288,
+      "sha256": "ca36e21ba560e920aff2b264a1526037f148ab43a9f8967e2d6b6a69a87c4e15"
+    },
+    "frontend/images/union/union-12.png": {
+      "bytes": 11921,
+      "sha256": "1d8567cb141220295e7574078cba41679652f6863e3ff30e5d06cd61a233a5e8"
+    },
+    "frontend/images/union/union-13.png": {
+      "bytes": 12691,
+      "sha256": "9c35cb2e22efb7ee21913e5ea88339cf79867aad40413b538ff637d20efc63ee"
+    },
+    "frontend/images/union/union-14.png": {
+      "bytes": 11365,
+      "sha256": "571cc3d3a265de80ad70ebbe78ad899186f33fc4b438d96b5b801c5bb46cf7f1"
+    },
+    "frontend/index.html": {
+      "bytes": 18088,
+      "sha256": "1315b001afecc39bd5d981f3526aefdb797a8ef3e9ce67d989170368c560d6c2"
+    },
+    "frontend/requirements.txt": {
+      "bytes": 83,
+      "sha256": "3b6602f926b01c107b2965e384a10a54a9714f55709d83b5fe63015f56494fd9"
+    },
+    "frontend/style.css": {
+      "bytes": 34980,
+      "sha256": "0f2bac671999e4a3de73979eb6e46303f75c552edfc035d909e75f5d271b91e0"
+    },
+    "README-知识库补充说明.md": {
+      "bytes": 1495,
+      "sha256": "e86db392e2e14c59972f155bfab76fae02cedc9c527c8a8e8eaaad4a50000d4f"
+    },
+    "README.md": {
+      "bytes": 8543,
+      "sha256": "c82a2aa402631a624c4a1db6e69fe7d5ac3ec954ce38e87c2d8806fd2b11b041"
+    },
+    "run.py": {
+      "bytes": 567,
+      "sha256": "b0cbb860f9cf0d14994ecbac7affd6bdebaf8aa1e0c5e317c5531b78b11746f7"
+    },
+    "tools/build_technical_pdf.py": {
+      "bytes": 18483,
+      "sha256": "9bb2267711b6fe05f16519c93d48b603847dfeaeec4ea602c3fe70407bbc045c"
+    },
+    "tools/evaluate_retrieval.py": {
+      "bytes": 2854,
+      "sha256": "ed28f49b1aa40aca601b44d805e6fbf5d116d88bba6c6e33267d7cd48cd748fe"
+    },
+    "tools/inspect_handover.py": {
+      "bytes": 4138,
+      "sha256": "928ebad17ec4c91a5d80c50127af47ee8920438ef967770eea96044cd28bdfc2"
+    },
+    "tools/isolate_received_credentials.py": {
+      "bytes": 1723,
+      "sha256": "b5a985cb9430e206eebbb7f9afe05677b667ccf489604eca326275b2426e3670"
+    },
+    "tools/package_release.py": {
+      "bytes": 7161,
+      "sha256": "b3a56b47604fea844b9f707f5cbea6ba52880639614e0d689a1391a0145a3dcb"
+    },
+    "tools/verify.py": {
+      "bytes": 22743,
+      "sha256": "c6541f27ce3d84d8403ace63a0728091a2024067d13aa0207d91eb3cc8a7fbea"
+    },
+    "入学准备清单.md": {
+      "bytes": 2075,
+      "sha256": "c45bd72797cdc9507bf4550ef87dc7f32aa29e422298161715d9795fa7a121a9"
+    },
+    "入学指南补充.md": {
+      "bytes": 2122,
+      "sha256": "487da7fa7376ef08c8258c13ab4dacdb2f4554ac5adde7240b0fafbca38367c3"
+    },
+    "六人宿舍俯视图.jpg": {
+      "bytes": 119055,
+      "sha256": "0d5387e5dff0e2272c3446df8113f33bc72f14a9e4cd49de5619dbe06cda899d"
+    },
+    "六人间床位.jpg": {
+      "bytes": 571600,
+      "sha256": "e00b0b2bafcb06e9f46c5c13e9073542d318e8a0188527174e53e0ae4d17c30c"
+    },
+    "六人间浴室洗手台.jpg": {
+      "bytes": 51005,
+      "sha256": "70bcba05401a98fe4b4df3b1b08bd839148aa19f22abe9226510484cf38afaad"
+    },
+    "军训安排.md": {
+      "bytes": 1330,
+      "sha256": "716972db2ef303862ff651f8b6052051634e7537b26f8da22a30c98abf8722f9"
+    },
+    "启动新生指南.cmd": {
+      "bytes": 393,
+      "sha256": "7018c0627e10fe3431ae239235909f21b0522ba3a6c5b8d4edd88ca4bf8e4e74"
+    },
+    "四人宿舍俯视图.jpg": {
+      "bytes": 60893,
+      "sha256": "b9f8948ffcb30b5a7ec38df03b1bb3c2f3a67181fe7fffd6aeabaeac0d405326"
+    },
+    "四人间六人间洗衣房.jpg": {
+      "bytes": 39165,
+      "sha256": "323e23e157c5e531da04f31f5d9b2dc1efa4989a99f56c1e0dfd2220fea24fa9"
+    },
+    "四人间卫生间.jpg": {
+      "bytes": 60746,
+      "sha256": "17ffdb1631c1148b9903e7bd06ea9382cfada188fa45599af1ba047e102cda42"
+    },
+    "四人间床位.jpg": {
+      "bytes": 427735,
+      "sha256": "f51754725d921473f41daaf437dbb65f2e0860adad40dea1fcca571c4030578d"
+    },
+    "四人间洗手台.jpg": {
+      "bytes": 119420,
+      "sha256": "c5f8087050acfcd86e8bfcc825245a963f0ae58951fd0598540952c50b5f746e"
+    },
+    "大学生学生会与学生组织指南.md": {
+      "bytes": 9204,
+      "sha256": "4d80e5c7f5ad073652c1d9e0a03a9dc902e01719763378da34366933fb743499"
+    },
+    "大学生社团参考指南.docx": {
+      "bytes": 233943,
+      "sha256": "de6a7cea937b05a70f08b7cbcb4e6f64ab7fa653c3d198cc9ae88b977c7a9755"
+    },
+    "大学生社团指南.md": {
+      "bytes": 7970,
+      "sha256": "02cc2b674e12e20d2166c1d1de520c63a3f9312ca1bc27bd5c9302d634bd856f"
+    },
+    "大学生竞赛指南.md": {
+      "bytes": 16611,
+      "sha256": "7f287337509faadeda0f93b60867c5f2bf7a5a6d7c9c008078640ba68625bc94"
+    },
+    "大学生竞赛简介与等级参考指南.docx": {
+      "bytes": 20054,
+      "sha256": "3ea479555dd914ead1566f3f91fbef51d89c5f01f623624c7dd2e4e5caa033d9"
+    },
+    "学校地图.jpg": {
+      "bytes": 91410,
+      "sha256": "32f577da2239e6eaedeb960baf8d4958ffe0154dc1b9efe26703a96ac2812da8"
+    },
+    "学校地址与导航.md": {
+      "bytes": 1911,
+      "sha256": "f59cd9d239cd547a653f2cf426c3ad4685f25592b5f049a91c611d9e56dcc94d"
+    },
+    "学校概况.md": {
+      "bytes": 2328,
+      "sha256": "fad19a167559c32d9841ea44e84bb56b2a5da8e722cb0f4ba8010cf353f54ab8"
+    },
+    "学生会与学生组织参考指南.docx": {
+      "bytes": 202381,
+      "sha256": "b2f3bebf79dbe98c4b1fdf2081b69f19b8bdc0a31c22e60675853418829a4e9d"
+    },
+    "官方服务入口.md": {
+      "bytes": 811,
+      "sha256": "9316e52d7cb252c1fd0d0a18a680d3e97975d260b05d749b4ae65d8368a561d9"
+    },
+    "宿舍床位选择参考.md": {
+      "bytes": 2651,
+      "sha256": "744e69a410ec56f479aeaef18b3390a486e70ac18e7c6fb563a19599aa12ddb8"
+    },
+    "宿舍床位选择参考指南.docx": {
+      "bytes": 14312,
+      "sha256": "fb6b8395def4c41aa65e4761503a992303b8f1824b45b4b0c8f82baa82c05869"
+    },
+    "宿舍水电与校园生活.md": {
+      "bytes": 1372,
+      "sha256": "147c914aeccd8a4a385d1aab2b63529f5497268d0498e4bcdbea9df9f8b49d17"
+    },
+    "户口迁移.md": {
+      "bytes": 1674,
+      "sha256": "4e141bf99e5b51039aa8c5b89c51d3cdd65dd558c5e2c4b32907e5c4a98dd5d8"
+    },
+    "报到准备材料.md": {
+      "bytes": 3524,
+      "sha256": "6f7df815ccb7e7eff5839f486cad173a8b9a9e19bec2bb2193c7e9c4a9dedea2"
+    },
+    "招生简章.md": {
+      "bytes": 1552,
+      "sha256": "5add42918911aac80ca1f68db3f4671b0a6bb0af793658cbde8a5ac452af5def"
+    },
+    "新生手册.txt": {
+      "bytes": 2077,
+      "sha256": "499a561e05d56b607097eaf35f7cfebbc43816078d0c324170e30ed30ddc0860"
+    },
+    "校园地图.md": {
+      "bytes": 8210,
+      "sha256": "b24de88ed7474e96b7b4ee0ce8a802b7e8dd4fcb85916c3f4121beb445dece6b"
+    },
+    "校园地图.png": {
+      "bytes": 719878,
+      "sha256": "bb50c0ef56d55089b1c0a2e5e4709a2527c4846b88c1ab0a572c8bef947e924c"
+    },
+    "档案与党团关系转接.md": {
+      "bytes": 2531,
+      "sha256": "04efd3c4efc4cb5d4ae42b149f6d775167125575a18c08828609ae7024b64f24"
+    },
+    "资助与绿色通道.md": {
+      "bytes": 1241,
+      "sha256": "f7d480de92f3511a0396d81e99be40047ef22bb559d1316bff3697cdcc65adc6"
+    },
+    "院系专业设置.md": {
+      "bytes": 2284,
+      "sha256": "0bbf191f829fae688da91eee3a7206651dd19643e9ee9daafd8612b878f49b70"
+    }
+  }
+}

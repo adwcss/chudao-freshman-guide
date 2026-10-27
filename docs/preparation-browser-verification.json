@@ -1,0 +1,25 @@
+{
+  "version": "1.4.0",
+  "date": "2026-10-14",
+  "environment": "Installed Edge headless, isolated profile and synthetic localhost:8769 data",
+  "checks": [
+    "Personal plan saved; six-day countdown from explicit date",
+    "Packing save restores focus to same item control",
+    "Identity packed, towel buy quantity 2, custom item added",
+    "Packing item opens prefilled real task editor; user-confirmed task saved",
+    "Refresh restores plan, quantity and packing state",
+    "Real file-input backup preview is read-only; confirmed restoration succeeds",
+    "Memo print CSS and Edge-generated PDF verified; physical printer not tested",
+    "Saved dorm area opens correct map place",
+    "Native Enter key saves packing item and retains focus on mobile viewport"
+  ],
+  "screenshots": [
+    "preparation-140.png",
+    "preparation-overview-140.png",
+    "mobile-preparation-140.png",
+    "mobile-preparation-overview-140.png"
+  ],
+  "errors": [],
+  "success": true,
+  "remote_calls": 0
+}

@@ -1,0 +1,11 @@
+{
+  "version": "1.6.0",
+  "date": "2026-10-15",
+  "pages": 20,
+  "bytes": 4333366,
+  "sha256": "44af797cc3eaf9c94e26c72f28e0a2ddc6407b2339e1422915b949a612d06567",
+  "version_in_each_page": true,
+  "regressions": 82,
+  "rendered_pages": 20,
+  "visual_review": "All 20 rendered pages inspected as a contact sheet; new mascot and expression chapters inspected at full size. Headers, footers, screenshots and body text have no observed overlap or clipping. Historical chapters retain their version labels."
+}

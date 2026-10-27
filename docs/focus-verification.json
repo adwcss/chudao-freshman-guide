@@ -1,0 +1,13 @@
+{
+  "version": "1.3.0",
+  "date": "2026-10-14",
+  "success": true,
+  "checks": [
+    "scenario navigation focuses heading; initialization preserves focus",
+    "上移b: focus preserved at visited-b",
+    "下移a: focus preserved at visited-a",
+    "移除b: focus preserved at visited-c",
+    "移除a: focus preserved at itinerary-place"
+  ],
+  "scope": "Shipped JavaScript in Node VM with controlled DOM fixture; not a native browser keyboard test"
+}

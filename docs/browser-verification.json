@@ -1,0 +1,44 @@
+{
+  "version": "1.3.0",
+  "date": "2026-10-14",
+  "environment": "Independent localhost port 8768, synthetic QA data",
+  "checks": [
+    "wrong scenario choice saved with explanation; revised recommended choice clears review status",
+    "refresh restores scenario choice; mobile materials scenario submitted",
+    "source container expanded and document names shown; all nested originals not manually opened",
+    "study preset generates 3 stops; library visited and moved upward",
+    "route-only URL and refresh preserve order and visited checkbox",
+    "route SVG points and 3 numbered pins match current itinerary",
+    "actual UTF-8 TXT download matches ordered places, visited state and schematic-line warning",
+    "390x844 mobile arrival and map itinerary; route pins visible; no document overflow",
+    "1280x900 desktop arrival and map itinerary; no document overflow",
+    "no console warnings/errors during tested flows"
+  ],
+  "focus_followup": {
+    "report": "focus-verification.json",
+    "passed": 5,
+    "method": "Real orientation.js executed in Node VM with controlled DOM fixture",
+    "reviewer_disposition": "ship, limited to the two reported focus fixes",
+    "limitation": "Browser tooling unavailable after the final focus fixes; native keyboard, focus appearance and scroll position not retested"
+  },
+  "calendar_validation": "HTTP MIME, all-day boundaries, excluded done/archive/undated, escaping and UTF-8 folding checked by regression; native calendar import not tested",
+  "screenshots": [
+    "arrival-130.png",
+    "itinerary-130.png",
+    "mobile-arrival-130.png",
+    "mobile-itinerary-130.png"
+  ],
+  "historical_1_2_0": {
+    "date": "2026-10-13",
+    "checks": [
+      "manual task title/date/priority/notes saved; archive and restore",
+      "collection creates 3 linked tasks; repeated generation preserves done progress and count",
+      "overdue and 7-day agenda; refresh restores tasks and URL filter",
+      "backup preview adds 1 and skips 1; confirmed merge gives 5 total",
+      "verification links visible; raw question omitted from search URL",
+      "390x844 mobile main/task dialog and 1280x900 desktop; no overflow or console warnings/errors"
+    ],
+    "screenshots": ["tasks-120.png", "mobile-tasks-120.png", "mobile-task-form-120.png"]
+  },
+  "remote_calls": 0
+}

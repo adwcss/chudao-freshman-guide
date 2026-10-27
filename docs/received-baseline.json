@@ -1,0 +1,202 @@
+{
+  "archive_sha256": "53CCA91DEC7D99A3B514CE188DDACD2D46A24C950F2AA26128ED8D5DB59F3212",
+  "received_date": "2026-10-08",
+  "extracted_baseline_files": 36,
+  "files": [
+    {
+      "bytes": 219,
+      "path": ".gitignore",
+      "sha256": "9A6DCF1C9C5AE81047C7DA91BFFD3E45B0ADBA4B10DADA1314DC89D4C6A886BE"
+    },
+    {
+      "bytes": 1022,
+      "path": "backend/api/chat.py",
+      "sha256": "47AFC6DF7A0BBE40E5522EAEEF19FA65325D3F1ECC03424934CD0CED60FAC79A"
+    },
+    {
+      "bytes": 2108,
+      "path": "backend/api/places.py",
+      "sha256": "A81183A65C41E072382A1090690E6D148201E0883F0837CC899CEDBE230DA576"
+    },
+    {
+      "bytes": 1225,
+      "path": "backend/api/stats.py",
+      "sha256": "8E6BF26853C9DFDAB7FD824E019DCEBA206D88E7D11320D08B66AB61755FEB0A"
+    },
+    {
+      "bytes": 27,
+      "path": "backend/api/__init__.py",
+      "sha256": "1B6068B81760AFBD0DE6BB83990C19A7D2C9958E787D6F8425971EDD6571D9DB"
+    },
+    {
+      "bytes": 1013,
+      "path": "backend/data/fake_data.py",
+      "sha256": "5D4C30216A3E6EE0682C89EE161BFD0E9A3B5EC6D5A92448F7C08DDDE51D0B5E"
+    },
+    {
+      "bytes": 84,
+      "path": "backend/data/__init__.py",
+      "sha256": "5E8BE99798C8E3D674F7BEF0B300D0FA790E441D98C30F6A723405EC159E3C98"
+    },
+    {
+      "bytes": 1657,
+      "path": "backend/main.py",
+      "sha256": "A00CE6686F6E19F73C2A555D650E58F790EEA1304FAA7F2A8BEEBAB89B2D8E08"
+    },
+    {
+      "bytes": 140,
+      "path": "backend/requirements.txt",
+      "sha256": "6B39EB5304C5E1B09C35FD5F0DF3DA1CEC3B18418B6DFA087984E96C12A24422"
+    },
+    {
+      "bytes": 1273,
+      "path": "backend/retriever/retriever.py",
+      "sha256": "DAB1771D0366DEEA290A734295F4BCA43C3C566DC405BC26F7CC6863E09DACEC"
+    },
+    {
+      "bytes": 5935,
+      "path": "backend/retriever/splitter.py",
+      "sha256": "BF7BB49ECBA47BD3AD5F2EA614EF39009BA5F449B880AA3C0FA5EFCE9CA8CB6B"
+    },
+    {
+      "bytes": 40,
+      "path": "backend/retriever/__init__.py",
+      "sha256": "A7A2B00B34D0F2530C58A237F298143F28442363AFEDDED160380DE20DDDA234"
+    },
+    {
+      "bytes": 1972,
+      "path": "backend/scripts/ingest.py",
+      "sha256": "7FE1A71338C74E57285F0A0B7983FAED9367B0A4EE15B5BA46AA29253C72D72E"
+    },
+    {
+      "bytes": 7485,
+      "path": "backend/services/chat_service.py",
+      "sha256": "6C3E3623E116D6A5C97162C9D169AFF53B56AB8E6712C883D5D6FCC9E33C9B3A"
+    },
+    {
+      "bytes": 28,
+      "path": "backend/services/__init__.py",
+      "sha256": "487A048402CFCA54F1F37F688529B168948A2BE5661275653A9F03A55C8F5CCF"
+    },
+    {
+      "bytes": 2521,
+      "path": "backend/vectorstore/chroma_store.py",
+      "sha256": "17F98131377E0250B82D7036C853B574C6E90C3323B49B16479FFA02A9BC0C50"
+    },
+    {
+      "bytes": 716800,
+      "path": "backend/vectorstore/db/chroma.sqlite3",
+      "sha256": "23A39E8C1C8B5914164F9034C4C87CB04062F4027D4890B16E15B26CF14F0A81"
+    },
+    {
+      "bytes": 37,
+      "path": "backend/vectorstore/db/update_time.json",
+      "sha256": "4D1E8497B465C6A728AC65662E61800CB83F7E9C9E17AEA0E81449DAA949545E"
+    },
+    {
+      "bytes": 31,
+      "path": "backend/vectorstore/__init__.py",
+      "sha256": "C8BF13F6753B30F51BBC8290CE72453782DEDD5F46907C9514C0AAB496E0F2F8"
+    },
+    {
+      "bytes": 25181,
+      "path": "frontend/app.py",
+      "sha256": "4D16FD9F584277B4817582E3DFFD1363BAFCA95E014AC53EBA815D799CC69653"
+    },
+    {
+      "bytes": 78,
+      "path": "frontend/requirements.txt",
+      "sha256": "0EC6BBCC14602AE855226AD86CF2B2D24FD88E8B32C970E5A471DC8CDBE718CD"
+    },
+    {
+      "bytes": 2990,
+      "path": "README-知识库补充说明.md",
+      "sha256": "4A90E93D62928653897E22519C7FBADCEE5B9169ABED33DDBE48B7ADF999F1DC"
+    },
+    {
+      "bytes": 2075,
+      "path": "入学准备清单.md",
+      "sha256": "C45BD72797CDC9507BF4550EF87DC7F32AA29E422298161715D9795FA7A121A9"
+    },
+    {
+      "bytes": 2122,
+      "path": "入学指南补充.md",
+      "sha256": "487DA7FA7376EF08C8258C13AB4DACDB2F4554AC5ADDE7240B0FAFBCA38367C3"
+    },
+    {
+      "bytes": 1330,
+      "path": "军训安排.md",
+      "sha256": "716972DB2EF303862FF651F8B6052051634E7537B26F8DA22A30C98ABF8722F9"
+    },
+    {
+      "bytes": 1911,
+      "path": "学校地址与导航.md",
+      "sha256": "F59CD9D239CD547A653F2CF426C3AD4685F25592B5F049A91C611D9E56DCC94D"
+    },
+    {
+      "bytes": 2328,
+      "path": "学校概况.md",
+      "sha256": "FAD19A167559C32D9841EA44E84BB56B2A5DA8E722CB0F4BA8010CF353F54AB8"
+    },
+    {
+      "bytes": 1372,
+      "path": "宿舍水电与校园生活.md",
+      "sha256": "147C914AECCD8A4A385D1AAB2B63529F5497268D0498E4BCDBEA9DF9F8B49D17"
+    },
+    {
+      "bytes": 1674,
+      "path": "户口迁移.md",
+      "sha256": "4E141BF99E5B51039AA8C5B89C51D3CDD65DD558C5E2C4B32907E5C4A98DD5D8"
+    },
+    {
+      "bytes": 1552,
+      "path": "招生简章.md",
+      "sha256": "5ADD42918911AAC80CA1F68DB3F4671B0A6BB0AF793658CBDE8A5AC452AF5DEF"
+    },
+    {
+      "bytes": 2077,
+      "path": "新生手册.txt",
+      "sha256": "499A561E05D56B607097EAF35F7CFEBBC43816078D0C324170E30ED30DDC0860"
+    },
+    {
+      "bytes": 4568,
+      "path": "校园地图.md",
+      "sha256": "724997610ED445EFA377B472CD0496678CED0DC6380DE7881C0B127C330B1A9A"
+    },
+    {
+      "bytes": 719878,
+      "path": "校园地图.png",
+      "sha256": "BB50C0EF56D55089B1C0A2E5E4709A2527C4846B88C1AB0A572C8BEF947E924C"
+    },
+    {
+      "bytes": 2531,
+      "path": "档案与党团关系转接.md",
+      "sha256": "04EFD3C4EFC4CB5D4AE42B149F6D775167125575A18C08828609AE7024B64F24"
+    },
+    {
+      "bytes": 1241,
+      "path": "资助与绿色通道.md",
+      "sha256": "F7D480DE92F3511A0396D81E99BE40047EF22BB559D1316BFF3697CDCC65ADC6"
+    },
+    {
+      "bytes": 2284,
+      "path": "院系专业设置.md",
+      "sha256": "0BBF191F829FAE688DA91EEE3A7206651DD19643E9EE9DAAFD8612B878F49B70"
+    }
+  ],
+  "omitted": [
+    ".venv",
+    "__pycache__",
+    "backend/.env"
+  ],
+  "archive_bytes": 495906310,
+  "source_archive": "C:\\Users\\刘江涵\\Documents\\xwechat_files\\wxid_7tc178nztdo722_a705\\msg\\file\\2026-10\\新生指南.zip",
+  "archive_entries": 59204,
+  "expanded_archive_bytes": 1606540327.0,
+  "notes": [
+    "Existing delivered implementation; no original Git history was included.",
+    "Source files are unchanged in this intake snapshot.",
+    "Local document copies were redacted; originals were not modified.",
+    "No received API key was used; no model download or service startup performed."
+  ]
+}

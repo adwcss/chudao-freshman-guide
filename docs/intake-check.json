@@ -1,0 +1,57 @@
+{
+  "scope": "Local baseline inspection; no API calls, model inference, or service startup",
+  "python_files_checked": 16,
+  "syntax_errors": [],
+  "expected_document_count": 13,
+  "documents_found": 13,
+  "split_chunk_count": 82,
+  "chunks_per_source": {
+    "新生手册.txt": 6,
+    "招生简章.md": 5,
+    "学校概况.md": 8,
+    "校园地图.md": 31,
+    "入学指南补充.md": 5,
+    "档案与党团关系转接.md": 3,
+    "资助与绿色通道.md": 3,
+    "军训安排.md": 3,
+    "户口迁移.md": 3,
+    "入学准备清单.md": 5,
+    "院系专业设置.md": 2,
+    "宿舍水电与校园生活.md": 3,
+    "学校地址与导航.md": 5
+  },
+  "supplement_chunks_contain_2024": true,
+  "supplement_chunks_preserve_header_year_caveat": false,
+  "supplement_chunks_preserve_source_url": false,
+  "map_chunks_preserve_disclaimer": false,
+  "map_contains_swimming_facility": true,
+  "map_file_present": true,
+  "route_queries": [
+    {
+      "displayed": "学校在哪些站点安排接站?",
+      "sent_to_service": "接站在哪?"
+    },
+    {
+      "displayed": "新生报到进哪个校门?",
+      "sent_to_service": "抵达校门在哪?"
+    },
+    {
+      "displayed": "报到点在哪里?",
+      "sent_to_service": "到报到点报到在哪?"
+    },
+    {
+      "displayed": "馨园宿舍在哪?",
+      "sent_to_service": "前往宿舍在哪?"
+    }
+  ],
+  "copied_database": {
+    "present": true,
+    "embedding_rows": 82,
+    "collections": [
+      {
+        "name": "new_student_guide",
+        "dimension": 384
+      }
+    ]
+  }
+}

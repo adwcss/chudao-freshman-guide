@@ -1,0 +1,184 @@
+[
+  {
+    "name": "chibi-cheer",
+    "size": [
+      1122,
+      1402
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "0e1e7462098c62d1f3355b2f3d2de1bc18de51ffc76ddde22e1e7567e0d9b028",
+    "strokes": 1296
+  },
+  {
+    "name": "chibi-guide",
+    "size": [
+      1122,
+      1402
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "379034e701a34ffc4ca83c150ac317a35345013ba578f0d2e679c7d7222072a2",
+    "strokes": 1268
+  },
+  {
+    "name": "chibi-read",
+    "size": [
+      1122,
+      1402
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "90453896e8e74ffcf60edaad57b15e909d47c717ad8d7dba022c36d65405c1b3",
+    "strokes": 1327
+  },
+  {
+    "name": "chibi-ready",
+    "size": [
+      1122,
+      1402
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "8d856598345f188c907f1a9dc1db30d74ef4d9d8bff6e382b891e0989924e35f",
+    "strokes": 1286
+  },
+  {
+    "name": "chibi-think",
+    "size": [
+      1122,
+      1402
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "9474202b14e30ea6644b260fca2a348bec37965ff81414733e4fdde1b036dbb6",
+    "strokes": 1386
+  },
+  {
+    "name": "chibi-wave",
+    "size": [
+      1122,
+      1402
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "18f7689be257952a6e6b53357da1834872b010ec18606d2881f0a1e4704ee643",
+    "strokes": 1296
+  },
+  {
+    "name": "creative-back-v2",
+    "size": [
+      1122,
+      1402
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "c149764e136cac5a162f3c2b7e458216142e69f8d3c33408cfb476add73725fe",
+    "strokes": 1082
+  },
+  {
+    "name": "creative-laugh",
+    "size": [
+      1122,
+      1402
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "a3ed3ac8ec6153afacbd5fdc070a69a634ebed10702b6f9a1b3452b00b78e50c",
+    "strokes": 1289
+  },
+  {
+    "name": "creative-rest",
+    "size": [
+      1154,
+      1363
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "9e1289544ea3c6ba739bbd79b22218ec19b03654bd5b670f3e8f25e88f002368",
+    "strokes": 1273
+  },
+  {
+    "name": "creative-side",
+    "size": [
+      1122,
+      1402
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "46cfb2e164c640624e25715fc94383dd935cb1e856a70489c1001803c3b02fc8",
+    "strokes": 1209
+  },
+  {
+    "name": "mascot-point",
+    "size": [
+      1122,
+      1402
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "9298fc04d96871a480323fb62be6c5873dd5b0e11fbe8aa507fbf73d3378aa98",
+    "strokes": 1207
+  },
+  {
+    "name": "mascot-reading",
+    "size": [
+      1122,
+      1402
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "bb1cfed3deb5008da7273038fdf74406f9ceea1658e2e39112ef0e6c3a1646fd",
+    "strokes": 1161
+  },
+  {
+    "name": "mascot-wave",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_range": [
+      0,
+      254
+    ],
+    "sha256": "0e65ba5a1885c91d89fd3127c041629a26bc19c371b444d986399ef97cf5c613",
+    "strokes": 1323
+  },
+  {
+    "name": "school-mascot",
+    "size": [
+      1122,
+      1402
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "14954dd7ba9833ada6e5b508b5107b1322b5636694f2c53fba2933e9f87fa49d",
+    "strokes": 1081
+  }
+]
