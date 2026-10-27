@@ -1,0 +1,28 @@
+# 环境变量 / 密钥文件
+.env
+backend/.env
+*.env
+
+# 含真实密钥的赛事要求文档（拒绝入库）
+docs/inputs/赛事要求.txt
+
+# Python 虚拟环境
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Chroma 向量库持久化
+backend/vectorstore/db/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.idea/
+*.swp
+.runtime/
+output/
+tmp/
+.venv-*/
+*.log
