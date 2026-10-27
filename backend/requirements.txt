@@ -1,0 +1,2 @@
+# Default application uses Python 3.10+ standard library only.
+# Received FastAPI/Chroma implementation is preserved in baseline commit 969ca1e.
