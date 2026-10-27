@@ -6,7 +6,8 @@ import re
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUTS = Path("C:/Users/刘江涵/Documents/xwechat_files/wxid_7tc178nztdo722_a705/msg/file/2026-10")
+# 原始交接材料改为放在项目根目录 received/ 下（含 新生指南.zip 与 赛事要求.txt），不再硬编码来源机器路径
+INPUTS = ROOT / "received"
 
 
 def main():
