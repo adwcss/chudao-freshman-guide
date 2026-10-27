@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f8fe">
+  <meta name="description" content="河南科技职业大学新生问答、校园地图与报到准备清单。每条回答可查看资料来源。">
+  <title>初到 · 河职大新生指南</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/preparation.css">
+  <link rel="stylesheet" href="/appearance.css">
+  <script src="/appearance.js" defer></script>
+  <script src="/decision.js" defer></script>
+  <script src="/planner.js" defer></script>
+  <script src="/orientation.js" defer></script>
+  <script src="/preparation.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+<!-- Decorative motifs derived from the supplied character: waves, birds and red bridge. -->
+<svg class="campus-definitions" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+  <symbol id="campus-waves" viewBox="0 0 800 300">
+    <path class="wave-pale" d="M0 260C150 310 235 200 390 208S625 72 800 105V300H0Z"/>
+    <path class="wave-blue" d="M150 300C275 211 405 287 546 197S725 143 800 164V300Z"/>
+    <path class="wave-deep" d="M390 300C545 228 652 295 800 206V300Z"/>
+    <path class="wave-foam" d="M20 270C187 309 270 206 415 226S650 91 802 121M260 297C420 235 497 281 650 203S763 180 810 174"/>
+    <path class="wave-ribbon" d="M585 269C670 198 716 142 800 149"/>
+  </symbol>
+  <symbol id="campus-bridge" viewBox="0 0 200 240">
+    <path class="bridge-outline" d="M35 222L100 20L168 222M100 20V222M100 55L159 192M78 92L125 107M65 133L142 149M52 176L156 192M18 223H184"/>
+  </symbol>
+  <symbol id="campus-birds" viewBox="0 0 280 100">
+    <path d="M15 56Q39 32 58 57Q74 30 104 33Q77 39 59 66Q37 48 15 56ZM165 19Q184 9 198 27Q211 13 238 22Q214 23 197 35Q183 20 165 19ZM208 79Q224 67 235 78Q246 66 268 71Q249 74 236 87Q224 77 208 79Z"/>
+  </symbol>
+</defs></svg>
+<div id="appearance-backdrop" aria-hidden="true">
+  <svg class="campus-background" viewBox="0 0 800 300" preserveAspectRatio="xMaxYMax meet"><use href="#campus-waves"/></svg>
+  <img id="campus-character-watermark" width="1122" height="1402" alt="" decoding="async" hidden>
+  <img id="appearance-wallpaper" width="2560" height="1440" alt="" hidden><div class="wallpaper-shade"></div>
+</div>
+<template id="campus-heading-template"><svg class="campus-heading-art" viewBox="0 0 800 300" aria-hidden="true" focusable="false"><use href="#campus-waves"/><use href="#campus-bridge" x="540" y="15" width="180" height="230"/><use class="campus-birds" href="#campus-birds" x="325" y="40" width="260" height="100"/></svg><img class="campus-heading-figure" width="1122" height="1402" alt="" aria-hidden="true" decoding="async" hidden></template>
+<a class="skip" href="#main">跳到主要内容</a>
+<aside class="sidebar">
+  <a class="brand" href="/?view=arrival" aria-label="初到新生指南首页"><span class="brand-icon" aria-hidden="true">初</span><span><strong>初到</strong><small>河职大新生指南</small></span></a>
+  <nav aria-label="主要导航">
+    <a href="/?view=arrival" data-view="arrival"><svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 4h14v16H5zM8 8h8M8 12h5M8 16h8"/></svg>新生情景演练</a>
+    <a href="/?view=chat" data-view="chat"><span aria-hidden="true">◇</span>新生问答</a>
+    <a href="/?view=preparation" data-view="preparation"><svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 6V3h8v3M5 6h14v15H5zM9 10v7M15 10v7"/></svg>出发准备台</a>
+    <a href="/?view=map" data-view="map"><span aria-hidden="true">⌖</span>校园地图</a>
+    <a href="/?view=plan" data-view="plan"><span aria-hidden="true">☆</span>我的成长计划</a>
+    <a href="/?view=tasks" data-view="tasks"><span aria-hidden="true">▦</span>日程与任务</a>
+    <a href="/?view=dorm" data-view="dorm"><span aria-hidden="true">▣</span>宿舍选择</a>
+    <a href="/?view=contest" data-view="contest"><span aria-hidden="true">♛</span>竞赛指南</a>
+    <a href="/?view=club" data-view="club"><span aria-hidden="true">❋</span>社团指南</a>
+    <a href="/?view=union" data-view="union"><span aria-hidden="true">✦</span>学生会</a>
+    <a href="/?view=checklist" data-view="checklist"><span aria-hidden="true">✓</span>报到清单<span class="nav-count" id="nav-count">0</span></a>
+    <a href="/?view=sources" data-view="sources"><span aria-hidden="true">▤</span>资料来源</a>
+  </nav>
+  <div class="sidebar-note"><span class="status-dot" aria-hidden="true"></span><strong id="mode-label">正在连接资料库…</strong><p id="mode-detail">回答会附上资料与适用范围。</p></div>
+  <div class="sidebar-footer"><button id="theme-toggle" class="text-button" aria-haspopup="dialog" aria-controls="appearance-dialog">外观与背景</button><a href="https://www.hnvust.cn/" target="_blank" rel="noopener noreferrer">学校官网</a><small>独立开发作品，非学校官方服务</small></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><span>河南科技职业大学</span><div><span id="knowledge-meta">正在读取资料…</span><button class="text-button" id="appearance-open" aria-haspopup="dialog" aria-controls="appearance-dialog">外观</button><button class="text-button" id="export">导出我的记录</button></div></header>
+  <main id="main" tabindex="-1">
+    <div id="global-error" class="error-banner" role="alert" hidden></div>
+    <section id="view-arrival" class="view" hidden>
+      <div class="page-heading"><div><h1>报到之前，先演练一遍。</h1><p>遇到这些情况，你会怎么做？选一个处理方式，看看资料怎么说。</p></div><a class="secondary" href="/?view=chat">直接提问</a></div>
+      <div class="arrival-workbench">
+        <div class="rehearsal-main">
+          <div id="rehearsal-stages" class="segmented" role="group" aria-label="演练阶段"></div>
+          <p id="rehearsal-progress" class="decision-category" role="status" aria-live="polite">正在读取练习进度…</p>
+          <div class="rehearsal-layout">
+            <nav id="rehearsal-list" class="rehearsal-list" aria-label="当前阶段场景"></nav>
+            <article class="scenario-sheet">
+              <h2 id="scenario-title" tabindex="-1">正在准备场景…</h2><p id="scenario-scene" class="scenario-scene"></p>
+              <form id="scenario-form"><fieldset><legend>你会怎样处理？</legend><div id="scenario-options" class="scenario-options"></div></fieldset><button id="scenario-submit" class="primary" type="submit">确认选择，看解释</button><p id="scenario-status" class="form-status" role="status" aria-live="polite"></p></form>
+              <div id="scenario-feedback" class="scenario-feedback" role="status" tabindex="-1" hidden></div>
+              <div class="scenario-next"><button id="scenario-review" class="text-button">复习待改进场景</button><button id="scenario-next" class="secondary">下一个场景</button></div>
+              <details class="scenario-evidence"><summary>查看本场景依据与适用范围</summary><div id="scenario-references"></div></details>
+            </article>
+          </div>
+        </div>
+        <aside class="arrival-tools" aria-label="准备与校园探索">
+          <h2>从了解，到行动。</h2><p>练习之后，亲自核对准备项；到校之后，认识自己会用到的地方。</p>
+          <section><h3>出发准备</h3><p id="arrival-readiness">正在读取准备进度…</p><a class="inline-link" href="/?view=checklist">打开我的报到清单</a><small>勾选由你确认。答对场景不会自动完成准备项。</small></section>
+          <section class="arrival-explore"><img src="/school-map.jpg" width="928" height="1120" alt="校园交接示意地图缩略图"><h3>规划一次校园探索</h3><p id="arrival-route-status">先选一条参考行程，再按自己的需要调整。</p><a class="secondary" href="/?view=map">编排我的探索行程</a><small>按自己的顺序认识地点，通行与开放情况以现场为准。</small></section>
+          <p class="decision-category">场景由现有资料整理，包含历史参考和通用建议，不代替学校当年通知。</p>
+        </aside>
+      </div>
+    </section>
+    <section id="view-preparation" class="view" hidden>
+      <div class="page-heading"><div><h1>出发前，把行李与安排理清。</h1><p>自己的日期、自己的行李，临走前再核对一次。</p></div><button id="prep-reload" class="secondary">重新读取</button></div>
+      <p class="notice">出行日期和宿舍由你填写，不代表学校已确认。行李建议需对照当年入学须知；装好物品与完成报到清单分别确认。</p>
+      <p id="prep-status" class="form-status" role="status" aria-live="polite"></p>
+      <div class="preparation-layout"><div class="preparation-main">
+        <section class="departure-plan" aria-labelledby="prep-plan-title"><h2 id="prep-plan-title">我的出行安排</h2><p id="departure-countdown" role="status" aria-live="polite">填写出发日期后显示倒计时。</p>
+          <form id="departure-form"><div class="departure-fields">
+            <label for="prep-departure">出发日期<input id="prep-departure" name="departure" type="date" min="2000-01-01" max="2099-12-31"></label>
+            <label for="prep-arrival">预计到校日期<input id="prep-arrival" name="arrival" type="date" min="2000-01-01" max="2099-12-31"></label>
+            <label for="prep-time">预计到校时间<input id="prep-time" name="time" type="time"></label>
+            <label for="prep-mode">出行方式<select id="prep-mode" name="mode"></select></label>
+            <label for="prep-dorm">分配的宿舍区域<select id="prep-dorm" name="dorm"></select></label>
+            <label for="prep-room-note">楼号等备注<input id="prep-room-note" name="room_note" maxlength="80" autocomplete="off" placeholder="等待分配后再填写…"></label>
+          </div><label for="prep-notes">出行备忘<textarea id="prep-notes" name="notes" maxlength="300" rows="2" placeholder="例如：到站后核对接站通知…"></textarea></label><div class="departure-actions"><button class="primary" type="submit">保存出行安排</button><button id="prep-dorm-map" class="text-button" type="button">在地图查看宿舍区域</button><span id="prep-draft-status" role="status" aria-live="polite"></span></div></form>
+        </section>
+        <section class="packing-section" aria-labelledby="packing-title"><div class="section-label"><h2 id="packing-title">我的行李单</h2><span id="packing-count" role="status" aria-live="polite"></span></div><p class="decision-category">修改数量或状态后，保存这一项。数量按自己的需要填写，资料没有规定的数量不会代填。</p><div id="packing-filters" class="segmented" role="group" aria-label="行李状态筛选"></div><div id="packing-list"></div>
+          <form id="packing-add"><label for="packing-custom-title">补充自己的物品<input id="packing-custom-title" name="title" maxlength="60" required autocomplete="off" placeholder="例如：眼镜盒…"></label><label for="packing-custom-quantity">数量<input id="packing-custom-quantity" name="quantity" type="number" min="1" max="99" step="1" value="1" required></label><button class="secondary" type="submit">添加物品</button></form><p id="packing-custom-count" class="decision-category"></p>
+          <details class="packing-evidence"><summary>行李建议的资料依据</summary><p>基础物品由现有入学准备资料结合通用打包建议整理，不是学校统一采购清单。证件规格、床品尺寸和实际提供情况请核对当年入学须知。</p><button id="packing-source" class="text-button">查看入学准备原文</button></details>
+        </section>
+      </div><aside class="preparation-aside" aria-label="出发核对与备份"><h2>临走前，再看一遍。</h2><div id="preparation-audit"></div><section class="preparation-tools"><h2>带走一张备忘卡</h2><p>汇总已保存的出行安排、行李、待核对事项与地图行程。未保存的表单内容不会导出。</p><button id="prep-export-memo" class="secondary">导出出发备忘卡</button><button id="prep-print-memo" class="secondary">预览并打印备忘卡</button><button id="prep-export-backup" class="text-button">导出准备台备份</button><label for="prep-backup-file">选择准备台备份，预览后恢复<input id="prep-backup-file" type="file" accept=".json,application/json"></label><small>此备份只恢复出行和行李，其他模块的记录保持原样。</small></section></aside></div>
+    </section>
+    <section id="view-chat" class="view">
+      <div class="page-heading"><div><h1>你好，新同学。</h1><p>报到、宿舍、校园生活，从这里问清楚。</p></div><button id="clear-chat" class="secondary">清空对话</button></div>
+      <div class="chat-layout">
+        <div class="chat-main">
+          <section class="question-starters" aria-label="常见问题"><div class="section-label"><h2>大家都在问</h2><span>选择一个问题开始</span></div><div id="faq-tabs" class="segmented"></div><div id="faq-questions" class="faq-grid"></div></section>
+          <section id="conversation" class="conversation" aria-label="对话记录"><div class="welcome" id="chat-welcome"><span class="welcome-symbol" aria-hidden="true">问</span><h2>你的第一站，资料先行。</h2><p>可以直接提问，也可以从上面的常见问题开始。<br>回答里的编号对应资料原文，历史安排会特别提醒。</p></div></section>
+          <form id="question-form" class="composer"><label for="question">想了解什么？</label><div class="input-row"><textarea id="question" name="question" rows="2" maxlength="500" autocomplete="off" placeholder="例如：报到要带什么材料？…" required></textarea><button id="send" class="primary" type="submit">发送问题 <span aria-hidden="true">↑</span></button></div><div class="composer-foot"><span>Enter 发送，Shift + Enter 换行</span><span id="request-status" role="status" aria-live="polite">每次回答都有资料可查</span></div></form>
+        </div>
+        <aside class="arrival-aside"><a class="inline-link" href="/?view=plan">规划宿舍、社团与竞赛</a><div class="arrival-title"><span aria-hidden="true">⌂</span><h2>把报到这件事理顺</h2></div><p>具体日期与办理位置，请核对当年官方通知。</p><ol id="arrival-route" class="route-list"></ol><div class="mini-checklist"><h3>出发前，准备好了多少？</h3><div class="progress-track"><span id="mini-progress"></span></div><p id="mini-progress-label">正在读取清单…</p><a class="inline-link" href="/?view=checklist">打开我的报到清单</a></div><div class="contact-note"><h3>需要人工确认？</h3><p>学校官网咨询电话</p><a href="tel:03948511111">0394-8511111</a><a href="tel:03948385111">0394-8385111</a><small>来源：学校官网首页</small></div></aside>
+      </div>
+    </section>
+    <section id="view-tasks" class="view" hidden>
+      <div class="page-heading"><div><h1>把下一步，放进日程。</h1><p>记录自己的计划，按时了解、尝试和复盘。</p></div><button id="new-task" class="primary">新增任务</button></div>
+      <p class="notice">这里的日期由你填写，是个人计划。不会报名、预订或自动确认官方截止时间；提醒只在本页展示。</p>
+      <div id="task-summary" class="planner-summary" role="status" aria-live="polite"></div>
+      <div class="planner-layout">
+        <div class="planner-main">
+          <div id="task-tabs" class="segmented" role="group" aria-label="任务进度筛选"></div>
+          <div class="planner-filters">
+            <label for="task-query">搜索任务<input id="task-query" name="task-query" type="search" autocomplete="off" placeholder="例如：体验活动…"></label>
+            <label for="task-priority-filter">优先级<select id="task-priority-filter" name="task-priority-filter"><option value="">全部优先级</option><option value="high">优先做</option><option value="normal">一般</option><option value="low">稍后做</option></select></label>
+            <label for="task-date-filter">日期<select id="task-date-filter" name="task-date-filter"><option value="">全部日期</option><option value="today">今天</option><option value="week">未来7天</option><option value="overdue">已过计划日</option><option value="undated">尚未排期</option></select></label>
+          </div>
+          <p id="task-result-count" class="decision-category" role="status" aria-live="polite"></p>
+          <div id="personal-task-list" class="personal-task-list"></div>
+        </div>
+        <aside class="planner-aside" aria-label="近期日程与备份">
+          <h2>未来7天</h2><p id="agenda-range" class="decision-category"></p><div id="task-agenda" class="task-agenda"></div>
+          <div class="planner-tools"><h2>带走你的计划</h2><p>日历文件只包含有日期的未完成任务。导入手机或电脑日历后，由日历应用决定提醒。</p><button id="export-calendar" class="secondary">导出日历 .ics</button><button id="export-task-backup" class="secondary">导出任务备份</button><label class="backup-file" for="task-backup-file">选择任务备份，预览后合并<input id="task-backup-file" name="task-backup-file" type="file" accept=".json,application/json"></label><p id="backup-status" class="form-status" role="status" aria-live="polite">备份只包含任务，可在新的本机会话中恢复。</p></div>
+        </aside>
+      </div>
+    </section>
+    <section id="view-map" class="view" hidden>
+      <div class="page-heading"><div><h1>把想去的地方，串成一次探索。</h1><p>点选地点加入行程，调整顺序，记录自己已经认识的地方。</p></div></div>
+      <div class="notice">交接地图为示意图。热点是图上位置，不是实时导航；建筑与开放情况以现场为准。</div>
+      <details id="itinerary-panel" class="itinerary-panel" open><summary>我的探索行程 <span id="itinerary-count">正在读取…</span></summary><p class="decision-category">连线只表示先后顺序，不是实际道路或最短路线。勾选到访不代表定位验证。</p><div id="itinerary-presets" class="itinerary-presets" aria-label="参考行程"></div><form id="itinerary-add"><label for="itinerary-place">从地图地点添加<select id="itinerary-place" name="itinerary-place"></select></label><button type="submit" class="secondary">加入行程</button></form><ol id="itinerary-list" class="itinerary-list"></ol><div class="itinerary-footer"><button id="route-only" class="secondary" aria-pressed="false">仅显示行程地点</button><button id="export-itinerary" class="secondary">导出行程</button><button id="clear-itinerary" class="text-button">清空</button></div><p id="itinerary-status" class="form-status" role="status" aria-live="polite">行程保存在本机当前会话中。</p></details>
+      <div class="map-search-controls"><label for="map-search">找地点<input id="map-search" name="map-search" type="search" autocomplete="off" placeholder="例如：图书馆、餐厅…"></label><label for="map-category">区域<select id="map-category" name="map-category"></select></label><span id="map-results" role="status" aria-live="polite"></span></div><div class="map-layout"><div><div class="map-toolbar"><h2>校园地图</h2><div><button id="zoom-out" class="secondary" aria-label="缩小地图">−</button><span id="zoom-label">100%</span><button id="zoom-in" class="secondary" aria-label="放大地图">＋</button><button id="zoom-reset" class="secondary">还原</button><button id="map-full" class="secondary">完整大图</button></div></div><div class="map-viewport"><div class="map-canvas" id="map-canvas"><img src="/school-map.jpg" width="928" height="1120" alt="学校地图，标注宿舍区、教学与办公区、餐饮与服务区、场馆与活动区及其他地标。地图为示意，位置以实地为准。" id="campus-image"><div id="map-pins"></div></div></div></div><aside class="map-detail"><h2>想去哪里？</h2><div id="place-list" class="place-list"></div><div id="place-detail" class="place-detail"></div></aside></div>
+    </section>
+    <section id="view-dorm" class="view" hidden>
+      <div class="page-heading"><div><h1>先看看未来的小窝。</h1><p>了解不同位置的取舍，再保存床位偏好。</p></div></div>
+      <div class="notice">交接照片仅作环境参考；选寝页的序号标在俯视图的床铺位上（上床下桌，下方书桌不标号），最终分配以学校当年安排为准。</div>
+      <div id="dorm-env" class="dorm-env"></div>
+      <div class="section-label section-spaced"><h2>更多交接环境照片</h2><span>洗漱、卫浴与洗衣房，点击可放大查看</span></div>
+      <div id="dorm-gallery" class="dorm-gallery"></div>
+    </section>
+    <section id="view-plan" class="view" hidden>
+      <div class="page-heading"><div><h1>找到适合你的下一步。</h1><p>设置偏好，比较选项，把想尝试的事放进自己的计划。</p></div><a class="secondary" href="/?view=checklist">查看报到准备</a></div>
+      <div class="notice">这是参考选择工具。社团和组织为高校常见示例，未确认本校实际开设；床位收藏不代表预订，比赛收藏不代表报名。</div>
+      <div class="decision-layout">
+        <form id="preferences-form" class="preferences-form">
+          <h2>我在意什么</h2>
+          <fieldset><legend>兴趣方向，可多选</legend><div id="interest-options" class="interest-options"></div></fieldset>
+          <label class="preference-field" for="preferred-college">竞赛专业方向<select id="preferred-college" name="college"></select></label>
+          <label class="preference-field" for="weekly-hours">每周可投入课外时间<select id="weekly-hours" name="hours"><option value="low">较少，先体验</option><option value="medium">适中，持续尝试</option><option value="high">较多，可承担一项长期任务</option></select></label>
+          <fieldset><legend>宿舍位置偏好</legend><label class="preference-field" for="preferred-room">参考房型<select id="preferred-room" name="room"><option value="liuren">六人寝</option><option value="siren">四人寝</option></select></label><div id="bed-priorities" class="bed-priorities"></div></fieldset>
+          <button id="match-preferences" class="primary" type="submit">保存偏好并匹配</button>
+          <p id="preference-status" class="form-status" role="status" aria-live="polite">偏好只保存在本机当前会话中。</p>
+        </form>
+        <div class="recommendations"><h2>先从这些选项了解</h2><div id="recommend-tabs" class="segmented" role="group" aria-label="推荐类别"></div><p id="recommend-method" class="decision-category">本地规则匹配，无需调用 API。</p><div id="recommend-list" class="decision-list"></div></div>
+      </div>
+      <section class="saved-section" aria-label="收藏计划"><div class="section-label"><h2>我的收藏与下一步</h2><span id="saved-count" role="status" aria-live="polite">0 项收藏</span></div><p class="decision-category">先确认实际开设和条件，再安排体验。完成了解不表示报名或录取成功。</p><div id="saved-list"></div></section>
+    </section>
+    <section id="view-dorm-bed" class="view" hidden>
+      <div class="page-heading"><div><h1 id="dorm-bed-title">床位选择</h1><p id="dorm-bed-subtitle">点击床位序号查看优缺点，加入「我的理想床位」对比。</p></div><button id="dorm-back" class="secondary">← 返回宿舍选择</button></div>
+      <div class="map-layout">
+        <div>
+          <div class="map-toolbar"><h2 id="dorm-bed-room-name">宿舍床位</h2></div>
+          <div id="dorm-bed-tip" class="notice"></div>
+          <div class="map-viewport"><div class="map-canvas" id="dorm-bed-canvas"><img src="/dorm-images/liuren-plan.jpg" alt="宿舍床位示意图" id="dorm-bed-image"><div id="dorm-bed-pins"></div></div></div>
+        </div>
+        <aside class="map-detail">
+          <h2>我的理想床位</h2>
+          <div id="ideal-beds" class="ideal-beds"></div>
+        </aside>
+      </div>
+    </section>
+    <section id="view-contest" class="view" hidden>
+      <div class="page-heading"><div><h1>大学生竞赛指南</h1><p>按参考专业方向筛选、对比赛事，把想了解的比赛加入自己的计划。</p></div><button id="contest-back" class="secondary">← 返回首页</button></div>
+      <div class="notice">竞赛内容来自交接参考指南；学院分类不代表参赛资格，加分和奖项认定待核对。<a href="/?view=plan">按兴趣匹配</a></div><div id="contest-levels" class="contest-levels"></div>
+      <details class="contest-grad"><summary>关于「考研加分」的重要说明</summary><p id="contest-grad-note"></p></details>
+      <div id="contest-usage" class="contest-usage"></div>
+      <div class="contest-filters">
+        <div id="contest-cats" class="contest-cats" role="group" aria-label="类别筛选"></div>
+        <div class="contest-filter-row">
+          <div id="contest-level-filter" class="contest-level-filter" role="group" aria-label="等级筛选"></div>
+          <label class="sr-only" for="contest-search">搜索竞赛</label><input name="contest-search" id="contest-search" type="search" autocomplete="off" placeholder="按竞赛名称、简介关键词搜索…">
+        </div>
+      </div>
+      <p id="contest-results" class="decision-category" role="status" aria-live="polite"></p><div id="contest-list" class="contest-list"></div>
+      <div class="section-label section-spaced"><h2>备赛建议</h2><span>大一新生参考</span></div>
+      <ol id="contest-tips" class="contest-tips"></ol>
+      <p class="contest-footnote">A/B/C仅为原作者指南的参考标签，非教育部统一等级，非本校认定。赛事资格、日期、费用及奖励用途以当届官方通知为准。</p>
+    </section>
+    <section id="view-club" class="view" hidden>
+      <div class="page-heading"><div><h1>大学生社团指南</h1><p>了解高校常见社团形态，比较活动与兴趣，先体验再决定。</p></div><button id="club-back" class="secondary">← 返回首页</button></div>
+      <div class="notice">这里是高校常见社团示例，未确认本校实际开设或招新；徽章为交接示意图。<a href="/?view=plan">按兴趣匹配</a></div><details class="club-tips"><summary>社团选择小建议</summary><ol id="club-tips-list"></ol></details>
+      <div class="club-filters">
+        <div id="club-cats" class="club-cats" role="group" aria-label="类别筛选"></div>
+        <label class="sr-only" for="club-search">搜索社团</label><input name="club-search" id="club-search" type="search" autocomplete="off" placeholder="按社团名称、简介、适合人群关键词搜索…">
+      </div>
+      <p id="club-results" class="decision-category" role="status" aria-live="polite"></p><div id="club-list" class="club-list"></div>
+      <p id="club-note" class="club-note"></p>
+    </section>
+    <section id="view-union" class="view" hidden>
+      <div class="page-heading"><div><h1>学生会与学生组织指南</h1><p id="union-intro"></p></div><button id="union-back" class="secondary">← 返回首页</button></div>
+      <div class="notice">部门与工作为通用参考，本校名称、组织设置和招新条件待核对。<a href="/?view=plan">按兴趣匹配</a></div><details class="club-tips"><summary>加入学生组织小建议</summary><ol id="union-tips-list"></ol></details>
+      <div class="club-filters">
+        <div id="union-cats" class="club-cats" role="group" aria-label="分类筛选"></div>
+        <label class="sr-only" for="union-search">搜索学生组织</label><input name="union-search" id="union-search" type="search" autocomplete="off" placeholder="按名称、简介、典型工作、适合人群关键词搜索…">
+      </div>
+      <p id="union-results" class="decision-category" role="status" aria-live="polite"></p><div id="union-list" class="club-list"></div>
+      <p id="union-note" class="club-note"></p>
+    </section>
+    <section id="view-checklist" class="view" hidden>
+      <div class="page-heading"><div><h1>一件件准备，安心出发。</h1><p>勾选进度会保存在当前浏览器的会话中，刷新后仍可继续。</p></div><button id="print-checklist" class="secondary">打印清单</button></div>
+      <div class="checklist-summary"><div><strong id="checklist-count">0 / 11</strong><span>项准备已完成</span></div><div class="progress-track"><span id="checklist-progress"></span></div></div>
+      <div class="notice">这是根据现有资料整理的准备建议。所需材料、数量与办理安排，以当年入学须知为准。</div>
+      <div id="task-groups" class="task-groups"></div>
+    </section>
+    <section id="view-sources" class="view" hidden>
+      <div class="page-heading"><div><h1>每个答案，都有出处。</h1><p>查看原文、来源类别和年份，辨别哪些信息还需要核对。</p></div></div>
+      <div class="source-legend"><span class="badge verified">官方入口已核对</span><span class="badge">交接资料待核对</span><span class="badge caution">第三方参考</span><span class="badge">交接地图参考</span></div>
+      <label class="source-search" for="source-filter">搜索资料<input id="source-filter" name="source-filter" type="search" autocomplete="off" placeholder="按资料名或内容搜索…"></label>
+      <div id="source-library" class="source-library"></div>
+    </section>
+  </main>
+  <footer class="page-footer"><span>初到，独立开发作品，非学校官方服务。</span><span>资料问答供参考，重要安排以学校官方通知为准。</span></footer>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<div id="compare-bar" class="compare-bar" hidden><span id="compare-count" role="status" aria-live="polite"></span><div><button id="open-compare" class="primary">查看对比</button><button id="clear-compare" class="secondary">清空对比</button></div></div>
+<dialog id="comparison-dialog" class="comparison-dialog" aria-labelledby="comparison-title"><div class="map-toolbar"><h2 id="comparison-title">把选项放在一起看</h2><button id="close-comparison" class="secondary">关闭对比</button></div><p class="decision-category">仅对同类选项做资料对照。排序分和位置参考不代表概率或实测环境。</p><div id="comparison-body" class="comparison-scroll"></div></dialog>
+<dialog id="clear-dialog"><h2>清空当前对话？</h2><p>清空后无法恢复。报到清单会保留。</p><div class="dialog-actions"><button id="cancel-clear" class="secondary">保留对话</button><button id="confirm-clear" class="primary">清空对话</button></div></dialog>
+<dialog id="map-dialog" class="map-dialog"><div class="map-toolbar"><h2>校园地图完整图</h2><button id="close-map" class="secondary">关闭大图</button></div><img src="/school-map.jpg" width="928" height="1120" alt="学校地图完整示意图。地图为示意，位置以实地为准。" loading="lazy"></dialog>
+<dialog id="bed-dialog" class="bed-dialog">
+  <div class="map-toolbar"><h2 id="bed-dialog-title">床位详情</h2><button id="close-bed" class="secondary">关闭</button></div>
+  <div id="bed-dialog-body"></div>
+</dialog>
+<dialog id="task-dialog" class="task-dialog" aria-labelledby="task-dialog-title">
+  <form id="personal-task-form"><h2 id="task-dialog-title">新增任务</h2><p id="task-source-note" class="decision-category"></p>
+    <label for="personal-task-title">任务标题<input id="personal-task-title" name="task-title" maxlength="100" autocomplete="off" placeholder="例如：了解社团招新安排…" required></label>
+    <div class="task-form-grid"><label for="personal-task-due">个人计划日期<input id="personal-task-due" name="task-due" type="date" min="2000-01-01" max="2099-12-31" autocomplete="off"></label><label for="personal-task-priority">优先级<select id="personal-task-priority" name="task-priority"><option value="high">优先做</option><option value="normal" selected>一般</option><option value="low">稍后做</option></select></label><label for="personal-task-status">任务进度<select id="personal-task-status" name="task-status"><option value="todo">待办</option><option value="doing">进行中</option><option value="done">已完成</option><option value="archived">已归档</option></select></label></div>
+    <label for="personal-task-notes">备注<textarea id="personal-task-notes" name="task-notes" rows="3" maxlength="600" autocomplete="off" placeholder="记录核对结果、准备材料或联系方式…"></textarea></label>
+    <p id="task-form-status" class="form-status" role="status" aria-live="polite" tabindex="-1"></p><div class="dialog-actions"><button id="cancel-task" class="secondary" type="button">取消</button><button id="save-task" class="primary" type="submit">保存任务</button></div>
+  </form>
+</dialog>
+<dialog id="task-import-dialog" class="task-dialog" aria-labelledby="task-import-title"><h2 id="task-import-title">预览任务备份</h2><p id="task-import-summary"></p><ul id="task-import-titles"></ul><p>相同的关联建议或完全相同的手动任务会跳过。现有任务的日期、备注和进度均保留。</p><p id="task-import-error" class="form-status" role="status" aria-live="polite"></p><div class="dialog-actions"><button id="cancel-task-import" class="secondary">取消导入</button><button id="confirm-task-import" class="primary">合并这些任务</button></div></dialog>
+<dialog id="prep-restore-dialog" class="task-dialog" aria-labelledby="prep-restore-title"><h2 id="prep-restore-title">恢复准备台备份？</h2><p id="prep-restore-summary"></p><ul id="prep-restore-items"></ul><p>将替换当前准备台的出行安排与行李状态。问答、清单、任务、演练及地图行程保持原记录。</p><p id="prep-restore-error" class="form-status" role="status" aria-live="polite"></p><div class="dialog-actions"><button id="prep-restore-cancel" class="secondary">保留当前记录</button><button id="prep-restore-confirm" class="primary">替换准备台记录</button></div></dialog>
+<dialog id="prep-memo-dialog" class="task-dialog" aria-labelledby="prep-memo-title"><h2 id="prep-memo-title">我的出发备忘卡</h2><p>以下内容来自已保存的记录。</p><pre id="prep-memo-preview"></pre><div class="dialog-actions"><button id="prep-memo-close" class="secondary">关闭</button><button id="prep-memo-print" class="primary">打印这张备忘卡</button></div></dialog>
+<dialog id="appearance-dialog" class="appearance-dialog" aria-labelledby="appearance-title">
+  <div class="appearance-heading"><h2 id="appearance-title">外观与背景</h2><button id="appearance-close" class="secondary">完成设置</button></div>
+  <p>蓝白铺开，浅蓝如水，点缀一抹红。让校园的颜色陪你启程。</p>
+  <fieldset><legend>显示模式</legend><div class="appearance-modes">
+    <label class="appearance-mode"><input type="radio" name="appearance-mode" value="light"><span>浅色<small>蓝白校园</small></span></label>
+    <label class="appearance-mode"><input type="radio" name="appearance-mode" value="dark"><span>深色<small>静夜深蓝</small></span></label>
+    <label class="appearance-mode"><input type="radio" name="appearance-mode" value="custom"><span>自定义<small>自己的图片</small></span></label>
+  </div></fieldset>
+  <section id="appearance-custom-panel" class="appearance-custom" aria-label="自定义背景" hidden>
+    <label class="appearance-file-label" for="appearance-image-file">选择自己的背景图片<input id="appearance-image-file" name="background-image" type="file" accept="image/jpeg,image/png,image/webp"></label>
+    <p>支持 JPG、PNG、WebP，最大 10 MB。图片只保存在当前浏览器，不会上传。</p><p id="appearance-image-name"></p>
+    <div class="appearance-image-actions"><button id="appearance-use-preset" class="secondary" aria-pressed="true">使用校园背景</button><button id="appearance-use-image" class="secondary" aria-pressed="false">使用我的图片</button><button id="appearance-remove-image" class="text-button">移除自选图片</button></div>
+    <div class="appearance-grid"><label for="appearance-position">图片显示位置<select id="appearance-position" name="background-position"><option value="top">顶部</option><option value="center">居中</option><option value="bottom">底部</option></select></label><label for="appearance-shade">背景遮罩<input id="appearance-shade" name="background-shade" type="range" min="35" max="85" step="1"><output id="appearance-shade-value" for="appearance-shade"></output></label><label for="appearance-blur">背景模糊<input id="appearance-blur" name="background-blur" type="range" min="0" max="12" step="1"><output id="appearance-blur-value" for="appearance-blur"></output></label></div>
+  </section>
+  <section class="appearance-intro-tools" aria-labelledby="appearance-opening-title">
+    <h3 id="appearance-opening-title">初到，与你一起启程</h3><p>统一开场会在每个标签页首次进入时自动播放，可随时跳过。日常切换页面、刷新时不再打扰。</p>
+    <p id="appearance-motion-note" hidden>已跟随系统“减少动态效果”设置，自动跳过动效；重播时显示静态画面。</p>
+    <button id="appearance-preview-intro" class="secondary">重播开场动画</button>
+  </section>
+  <p id="appearance-status" class="form-status" role="status" aria-live="polite"></p>
+</dialog>
+<dialog id="intro-dialog" aria-labelledby="intro-title">
+  <div class="intro-scene" aria-hidden="true">
+    <svg class="intro-landscape" viewBox="0 0 800 300" preserveAspectRatio="xMaxYMax slice"><use href="#campus-waves"/></svg>
+    <svg class="intro-bridge" viewBox="0 0 200 240"><use href="#campus-bridge"/></svg>
+    <svg class="intro-birds" viewBox="0 0 280 100"><use href="#campus-birds"/></svg>
+  </div>
+  <div class="intro-composition">
+    <div class="intro-content"><p class="intro-school">河南科技职业大学</p><h2 id="intro-title">初到<span>与你，一起启程。</span></h2><div class="intro-rule" aria-hidden="true"></div><p>你的校园生活，从这里开始。</p></div>
+    <div class="intro-character" aria-hidden="true"><svg id="intro-lines" class="intro-lines" xmlns="http://www.w3.org/2000/svg" focusable="false"></svg><img id="intro-portrait" class="intro-portrait" width="1122" height="1402" alt=""></div>
+  </div>
+  <p class="intro-motto">明德 · 笃学 · 求是 · 创新</p><button id="intro-skip">跳过，进入指南</button>
+</dialog>
+</body>
+</html>
